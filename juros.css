@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Outfit:wght@400;700&display=swap');
+* {
+    font-family: 'Bruno Ace SC', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+#container {
+    margin-top: 150px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 30px;
+}
+#calculator{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(192, 160, 194);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(18, 33, 61);
+    gap: 25px;
+}
+#calculator h2 {
+    font-size: 30px;
+    position: relative;
+}
+#calculator h2::before {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 350px;
+    background-color: rgb(192, 160, 194);
+    bottom: 5px;
+}
+#input_box {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.input-field {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.input-field label {
+    font-size: 15px;
+    color: antiquewhite;
+    font-weight: 500;
+}
+.input-field input {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: antiquewhite;
+    padding: 5px;
+}
+.input-field input:focus {
+    outline: none;
+}
+#result {
+    text-align: center;
+
+}
+#total {
+    font-size: 40px;
+}
+#calculate {
+    background-color: cadetblue;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+body {
+    background-image: url("fundo-gradiente-metalico-abstrato_23-2149532906.avif");
+    background-size: cover;
+}
+
+
